@@ -1,0 +1,143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-29 18:30+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: forms.py:30
+msgid "Email"
+msgstr ""
+
+#: forms.py:31 forms.py:49
+msgid "Message"
+msgstr ""
+
+#: forms.py:37
+msgid "Someone with that email address is already here."
+msgstr ""
+
+#: forms.py:42
+#, python-format
+msgid "Invitation to join sent to %s"
+msgstr ""
+
+#: forms.py:56
+msgid "Unknown user."
+msgstr ""
+
+#: forms.py:64
+#, python-format
+msgid "Already requested friendship with %s"
+msgstr ""
+
+#: forms.py:68
+#, python-format
+msgid "%s has already requested friendship with you"
+msgstr ""
+
+#: forms.py:79
+#, python-format
+msgid "Friendship requested with %s"
+msgstr ""
+
+#: management.py:10
+msgid "Invitation Received"
+msgstr ""
+
+#: management.py:10
+msgid "you have received an invitation"
+msgstr ""
+
+#: management.py:11
+msgid "Invitation Sent"
+msgstr ""
+
+#: management.py:11
+msgid "you have sent an invitation"
+msgstr ""
+
+#: management.py:12
+msgid "Acceptance Received"
+msgstr ""
+
+#: management.py:12
+msgid "an invitation you sent has been accepted"
+msgstr ""
+
+#: management.py:13
+msgid "Acceptance Sent"
+msgstr ""
+
+#: management.py:13
+msgid "you have accepted an invitation you received"
+msgstr ""
+
+#: management.py:14
+msgid "Other Connection"
+msgstr ""
+
+#: management.py:14
+msgid "one of your friends has a new connection"
+msgstr ""
+
+#: management.py:15
+msgid "Join Invitation Accepted"
+msgstr ""
+
+#: management.py:15
+msgid "an invitation you sent to join this site has been accepted"
+msgstr ""
+
+#: templates/notification/friends_accept/notice.html:2
+#, python-format
+msgid ""
+"<a href=\"%(user_url)s\">%(invitation_user)s</a> has accepted your friend "
+"request."
+msgstr ""
+
+#: templates/notification/friends_accept_sent/notice.html:2
+#, python-format
+msgid ""
+"You accepted <a href=\"%(user_url)s\">%(invitation_from_user)s</a>'s friend "
+"request."
+msgstr ""
+
+#: templates/notification/friends_invite/notice.html:2
+#, python-format
+msgid ""
+"<a href=\"%(user_url)s\">%(invitation_from_user)s</a> has requested to add "
+"you as a friend (see <a href=\"%(invitation_page)s\">invitations</a>)"
+msgstr ""
+
+#: templates/notification/friends_invite_sent/notice.html:2
+#, python-format
+msgid ""
+"you have invited <a href=\"%(user_url)s\">%(invitation_to_user)s</a> to add "
+"you as a friend."
+msgstr ""
+
+#: templates/notification/friends_otherconnect/notice.html:2
+#, python-format
+msgid ""
+"<a href=\"%(from_user_url)s\">%(invitation_from_user)s</a> and <a href=\"%"
+"(to_user_url)s\">%(to_user)s</a> are now friends."
+msgstr ""
+
+#: templates/notification/join_accept/notice.html:2
+#, python-format
+msgid ""
+"<a href=\"%(user_url)s\">%(new_user)s</a> has joined and is now a friend."
+msgstr ""
