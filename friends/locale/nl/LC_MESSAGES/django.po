@@ -19,87 +19,87 @@ msgstr ""
 
 #: forms.py:30
 msgid "Email"
-msgstr ""
+msgstr "E-mail"
 
 #: forms.py:31 forms.py:49
 msgid "Message"
-msgstr ""
+msgstr "Berricht"
 
 #: forms.py:37
 msgid "Someone with that email address is already here."
-msgstr ""
+msgstr "Iemand met dat email adres is hier al."
 
 #: forms.py:42
 #, python-format
 msgid "Invitation to join sent to %s"
-msgstr ""
+msgstr "Uitnodiging verzonden naar %s"
 
 #: forms.py:56
 msgid "Unknown user."
-msgstr ""
+msgstr "Onbekende gebruiker."
 
 #: forms.py:64
 #, python-format
 msgid "Already requested friendship with %s"
-msgstr ""
+msgstr "U heeft al een vriendschaps verzoek gedaan aan %s"
 
 #: forms.py:68
 #, python-format
 msgid "%s has already requested friendship with you"
-msgstr ""
+msgstr "%s heeft you al een friendschaps verzoek gedaan"
 
 #: forms.py:79
 #, python-format
 msgid "Friendship requested with %s"
-msgstr ""
+msgstr "Vriendschaps verzoek gedaan met %s"
 
 #: management.py:10
 msgid "Invitation Received"
-msgstr ""
+msgstr "Uitnodiging ontvangen"
 
 #: management.py:10
 msgid "you have received an invitation"
-msgstr ""
+msgstr "U heeft een uitnodiging ontvangen"
 
 #: management.py:11
 msgid "Invitation Sent"
-msgstr ""
+msgstr "Uitnodiging verstuurd"
 
 #: management.py:11
 msgid "you have sent an invitation"
-msgstr ""
+msgstr "U heeft een uitnodiging verstuurd"
 
 #: management.py:12
 msgid "Acceptance Received"
-msgstr ""
+msgstr "Acceptatie ontvangen"
 
 #: management.py:12
 msgid "an invitation you sent has been accepted"
-msgstr ""
+msgstr "een uitnodiging die u heeft verstuurd is geaccepteerd"
 
 #: management.py:13
 msgid "Acceptance Sent"
-msgstr ""
+msgstr "Acceptatie verzonden"
 
 #: management.py:13
 msgid "you have accepted an invitation you received"
-msgstr ""
+msgstr "u heeft een uitnodiging geaccepteerd"
 
 #: management.py:14
 msgid "Other Connection"
-msgstr ""
+msgstr "Andere verbinding"
 
 #: management.py:14
 msgid "one of your friends has a new connection"
-msgstr ""
+msgstr "een van uw vrienden heeft een nieuwe connectie"
 
 #: management.py:15
 msgid "Join Invitation Accepted"
-msgstr ""
+msgstr "Uitnodiging geaccepteerd"
 
 #: management.py:15
 msgid "an invitation you sent to join this site has been accepted"
-msgstr ""
+msgstr "uw uitnodiging om de site te gebruiken is geaccepteerd"
 
 #: templates/notification/friends_accept/notice.html:2
 #, python-format
@@ -107,6 +107,7 @@ msgid ""
 "<a href=\"%(user_url)s\">%(invitation_user)s</a> has accepted your friend "
 "request."
 msgstr ""
+"<a href=\"%(user_url)s\">%(invitation_user)s</a> heeft uw vriendschapsverzoek geaccepteerd."
 
 #: templates/notification/friends_accept_sent/notice.html:2
 #, python-format
@@ -114,6 +115,7 @@ msgid ""
 "You accepted <a href=\"%(user_url)s\">%(invitation_from_user)s</a>'s friend "
 "request."
 msgstr ""
+"U heeft <a href=\"%(user_url)s\">%(invitation_from_user)s</a>'s vriendschapsverzoek geaccepteerd."
 
 #: templates/notification/friends_invite/notice.html:2
 #, python-format
@@ -121,12 +123,13 @@ msgid ""
 "<a href=\"%(user_url)s\">%(invitation_from_user)s</a> has requested to add "
 "you as a friend (see <a href=\"%(invitation_page)s\">invitations</a>)"
 msgstr ""
+"<a href=\"%(user_url)s\">%(invitation_from_user)s</a> heeft u een uitnodiging verstuurd om vrienden te worden"
+" (zie <a href=\"%(invitation_page)s\">uitnodigingen</a>)"
 
 #: templates/notification/friends_invite_sent/notice.html:2
 #, python-format
 msgid ""
-"you have invited <a href=\"%(user_url)s\">%(invitation_to_user)s</a> to add "
-"you as a friend."
+"U heeft <a href=\"%(user_url)s\">%(invitation_to_user)s</a> uitgenodigd als vriend."
 msgstr ""
 
 #: templates/notification/friends_otherconnect/notice.html:2
@@ -135,9 +138,12 @@ msgid ""
 "<a href=\"%(from_user_url)s\">%(invitation_from_user)s</a> and <a href=\"%"
 "(to_user_url)s\">%(to_user)s</a> are now friends."
 msgstr ""
+"<a href=\"%(from_user_url)s\">%(invitation_from_user)s</a> en <a href=\"%"
+"(to_user_url)s\">%(to_user)s</a> zijn nu vrienden."
 
 #: templates/notification/join_accept/notice.html:2
 #, python-format
 msgid ""
 "<a href=\"%(user_url)s\">%(new_user)s</a> has joined and is now a friend."
 msgstr ""
+"<a href=\"%(user_url)s\">%(new_user)s</a> heeft zich aangesloten en is nu uw vriend."
