@@ -76,5 +76,7 @@ class InviteFriendForm(UserForm):
         if notification:
             notification.send([to_user], "friends_invite", {"invitation": invitation})
             notification.send([self.user], "friends_invite_sent", {"invitation": invitation})
-        self.user.message_set.create(message=_("Friendship requested with %s" % to_user.username)) # @@@ make link like notification
+        # Removed this is deprecated and not working with i18n
+        # Handled from the view for now
+        # self.user.message_set.create(message=_("Friendship requested with %s" % to_user.username)) # @@@ make link like notification
         return invitation
