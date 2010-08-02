@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-07-29 18:30+0200\n"
+"POT-Creation-Date: 2010-08-02 15:10+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,11 +47,6 @@ msgstr "U heeft al een vriendschaps verzoek gedaan aan %s"
 #, python-format
 msgid "%s has already requested friendship with you"
 msgstr "%s heeft you al een friendschaps verzoek gedaan"
-
-#: forms.py:79
-#, python-format
-msgid "Friendship requested with %s"
-msgstr "Vriendschaps verzoek gedaan met %s"
 
 #: management.py:10
 msgid "Invitation Received"
@@ -107,7 +102,8 @@ msgid ""
 "<a href=\"%(user_url)s\">%(invitation_user)s</a> has accepted your friend "
 "request."
 msgstr ""
-"<a href=\"%(user_url)s\">%(invitation_user)s</a> heeft uw vriendschapsverzoek geaccepteerd."
+"<a href=\"%(user_url)s\">%(invitation_user)s</a> heeft uw "
+"vriendschapsverzoek geaccepteerd."
 
 #: templates/notification/friends_accept_sent/notice.html:2
 #, python-format
@@ -115,7 +111,8 @@ msgid ""
 "You accepted <a href=\"%(user_url)s\">%(invitation_from_user)s</a>'s friend "
 "request."
 msgstr ""
-"U heeft <a href=\"%(user_url)s\">%(invitation_from_user)s</a>'s vriendschapsverzoek geaccepteerd."
+"U heeft <a href=\"%(user_url)s\">%(invitation_from_user)s</a>'s "
+"vriendschapsverzoek geaccepteerd."
 
 #: templates/notification/friends_invite/notice.html:2
 #, python-format
@@ -123,14 +120,18 @@ msgid ""
 "<a href=\"%(user_url)s\">%(invitation_from_user)s</a> has requested to add "
 "you as a friend (see <a href=\"%(invitation_page)s\">invitations</a>)"
 msgstr ""
-"<a href=\"%(user_url)s\">%(invitation_from_user)s</a> heeft u een uitnodiging verstuurd om vrienden te worden"
-" (zie <a href=\"%(invitation_page)s\">uitnodigingen</a>)"
+"<a href=\"%(user_url)s\">%(invitation_from_user)s</a> heeft u een "
+"uitnodiging verstuurd om vrienden te worden (zie <a href=\"%(invitation_page)"
+"s\">uitnodigingen</a>)"
 
 #: templates/notification/friends_invite_sent/notice.html:2
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"U heeft <a href=\"%(user_url)s\">%(invitation_to_user)s</a> uitgenodigd als vriend."
+"you have invited <a href=\"%(user_url)s\">%(invitation_to_user)s</a> to add "
+"you as a friend."
 msgstr ""
+"U heeft <a href=\"%(user_url)s\">%(invitation_from_user)s</a>'s "
+"vriendschapsverzoek geaccepteerd."
 
 #: templates/notification/friends_otherconnect/notice.html:2
 #, python-format
@@ -146,4 +147,8 @@ msgstr ""
 msgid ""
 "<a href=\"%(user_url)s\">%(new_user)s</a> has joined and is now a friend."
 msgstr ""
-"<a href=\"%(user_url)s\">%(new_user)s</a> heeft zich aangesloten en is nu uw vriend."
+"<a href=\"%(user_url)s\">%(new_user)s</a> heeft zich aangesloten en is nu uw "
+"vriend."
+
+#~ msgid "Friendship requested with %s"
+#~ msgstr "Vriendschaps verzoek gedaan met %s"
